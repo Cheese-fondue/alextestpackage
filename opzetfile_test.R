@@ -14,3 +14,14 @@ exists("strsplit1", where = globalenv(), inherits = FALSE)
 
 
 check()
+
+
+library(alextestpackage)
+
+x <- "alfa,bravo,charlie,delta"
+strsplit1(x, split = ",")
+#> [1] "alfa"    "bravo"   "charlie" "delta"
+#>
+#
+
+use_testthat()
