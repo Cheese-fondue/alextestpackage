@@ -9,3 +9,8 @@ library("devtools")
 
 use_r("strsplit1")
 #> ☐ Edit 'R/strsplit1.R'.
+
+exists("strsplit1", where = globalenv(), inherits = FALSE)
+
+
+check()
