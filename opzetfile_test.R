@@ -25,3 +25,10 @@ strsplit1(x, split = ",")
 #
 
 use_testthat()
+
+use_package("stringr")
+#> ✔ Adding stringr to 'Imports' field in DESCRIPTION.
+#> ☐ Refer to functions with `stringr::fun()`.
+#>
+
+rename_files("strsplit1", "str_split_one")
